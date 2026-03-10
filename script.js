@@ -38,10 +38,11 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 // Typing Effect for Tagline
 const texts = [
-    "IoT & Automation Developer ",
-    "ESP32 & Arduino Enthusiast ",
-    "UiPath RPA Developer ",
-    "C Programmer "
+    "Embedded, Iot",
+    "VLSI Design",
+    "C Programmer",
+    "Embedded C",
+    "Digital Electronics"
 ];
 
 let count = 0;
