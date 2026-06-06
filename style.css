@@ -372,6 +372,24 @@ a {
     gap: 30px;
 }
 
+/* About intro styling */
+.about-intro {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin: 10px auto 30px;
+    max-width: 900px;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .about-intro {
+        font-size: 1.05rem;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+}
+
 .about-item {
     text-align: center;
     padding: 20px;
@@ -466,6 +484,13 @@ a {
     color: var(--primary);
 }
 
+.skill-logo {
+    width: 48px;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+}
+
 .skill-card span {
     font-weight: 500;
     font-size: 1.1rem;
@@ -498,6 +523,22 @@ a {
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.8);
     overflow: hidden;
+}
+
+.project-img {
+    position: relative;
+}
+
+.project-img .img-caption {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
 }
 
 .project-photo {
