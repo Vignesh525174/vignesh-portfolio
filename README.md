@@ -31,3 +31,9 @@ Automation scripts:
 		```
 
 Both scripts add or update the `origin` remote and push `main` and `gh-pages` branches. After pushing, enable GitHub Pages in the repository settings and choose the `gh-pages` branch (or `main`) as the source.
+
+### Certificates & Training
+
+- **MongoDB Basics for Students**
+
+	![MongoDB Basics Certificate](./mangodb.jpg)
